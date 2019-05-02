@@ -11,7 +11,7 @@ import App from '../src/containers/App';
 
 describe('App', () => {
   let wrapper;
-
+  
   beforeEach(() => {
     wrapper = shallow(<App />);
   })
